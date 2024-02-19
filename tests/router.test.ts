@@ -35,6 +35,10 @@ describe('router', () => {
 
         router.remove({path: "path"});
         expect(router.getRoutes().length).toEqual(1);
+        
+        // пробуем удалить несуществующй path
+        router.remove({path: "bad-route"});
+        expect(router.getRoutes().length).toEqual(1);
 
         router.go(location.pathname);
         expect(router.getRoutes().length).toEqual(1);
@@ -52,6 +56,6 @@ describe('router', () => {
         console.log(a.getAttribute("href"));
         expect(a.getAttribute("href")).toEqual(null);
 
-        
+
     });
 })
