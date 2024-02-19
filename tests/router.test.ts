@@ -42,7 +42,16 @@ describe('router', () => {
         // test handlerClick
         const a = document.querySelector("a") as HTMLAnchorElement;
         a.click();
-        const href = a.getAttribute("href");
-        expect(href).toEqual("/info");
+        expect(a.getAttribute("href")).toEqual("/info");
+        // клик не по ссылке
+        a.parentElement?.click();
+        expect(a.parentElement!.getAttribute("href")).not.toEqual("/info");
+        // !href
+        a.removeAttribute("href");
+        a.click();
+        console.log(a.getAttribute("href"));
+        expect(a.getAttribute("href")).toEqual(null);
+
+        
     });
 })
