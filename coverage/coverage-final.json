@@ -1,5 +1,686 @@
-{"/Users/ulyana/Desktop/projects/otus/router-ula-otus/src/app.ts": {"path":"/Users/ulyana/Desktop/projects/otus/router-ula-otus/src/app.ts","statementMap":{"0":{"start":{"line":5,"column":17},"end":{"line":5,"column":25}},"1":{"start":{"line":6,"column":2},"end":{"line":6,"column":27}},"2":{"start":{"line":7,"column":2},"end":{"line":7,"column":33}},"3":{"start":{"line":8,"column":2},"end":{"line":8,"column":32}},"4":{"start":{"line":9,"column":2},"end":{"line":9,"column":72}},"5":{"start":{"line":9,"column":30},"end":{"line":9,"column":57}},"6":{"start":{"line":10,"column":2},"end":{"line":10,"column":31}}},"fnMap":{"0":{"name":"app","decl":{"start":{"line":4,"column":16},"end":{"line":4,"column":19}},"loc":{"start":{"line":4,"column":22},"end":{"line":11,"column":1}},"line":4},"1":{"name":"(anonymous_1)","decl":{"start":{"line":9,"column":12},"end":{"line":9,"column":13}},"loc":{"start":{"line":9,"column":30},"end":{"line":9,"column":57}},"line":9}},"branchMap":{},"s":{"0":1,"1":1,"2":1,"3":1,"4":1,"5":1,"6":1},"f":{"0":1,"1":1},"b":{},"_coverageSchema":"1a1c01bbd47fc00a2c39e90264f33305004495a9","hash":"21572604af0782714c3ce581fcf9ac7ebdd4d993"}
-,"/Users/ulyana/Desktop/projects/otus/router-ula-otus/src/pages.ts": {"path":"/Users/ulyana/Desktop/projects/otus/router-ula-otus/src/pages.ts","statementMap":{"0":{"start":{"line":5,"column":2},"end":{"line":5,"column":40}},"1":{"start":{"line":9,"column":2},"end":{"line":9,"column":40}},"2":{"start":{"line":13,"column":2},"end":{"line":13,"column":46}},"3":{"start":{"line":17,"column":2},"end":{"line":17,"column":69}}},"fnMap":{"0":{"name":"pageMain","decl":{"start":{"line":4,"column":22},"end":{"line":4,"column":30}},"loc":{"start":{"line":4,"column":33},"end":{"line":6,"column":1}},"line":4},"1":{"name":"pageAbout","decl":{"start":{"line":8,"column":22},"end":{"line":8,"column":31}},"loc":{"start":{"line":8,"column":34},"end":{"line":10,"column":1}},"line":8},"2":{"name":"pageInfo","decl":{"start":{"line":12,"column":22},"end":{"line":12,"column":30}},"loc":{"start":{"line":12,"column":33},"end":{"line":14,"column":1}},"line":12},"3":{"name":"pageContact","decl":{"start":{"line":16,"column":22},"end":{"line":16,"column":33}},"loc":{"start":{"line":16,"column":49},"end":{"line":18,"column":1}},"line":16}},"branchMap":{},"s":{"0":2,"1":1,"2":1,"3":2},"f":{"0":2,"1":1,"2":1,"3":2},"b":{},"_coverageSchema":"1a1c01bbd47fc00a2c39e90264f33305004495a9","hash":"b1b434de496245514801e8dbeeae95a431ba52da"}
-,"/Users/ulyana/Desktop/projects/otus/router-ula-otus/src/render.ts": {"path":"/Users/ulyana/Desktop/projects/otus/router-ula-otus/src/render.ts","statementMap":{"0":{"start":{"line":2,"column":2},"end":{"line":2,"column":25}},"1":{"start":{"line":3,"column":2},"end":{"line":3,"column":54}}},"fnMap":{"0":{"name":"render","decl":{"start":{"line":1,"column":16},"end":{"line":1,"column":22}},"loc":{"start":{"line":1,"column":55},"end":{"line":4,"column":1}},"line":1}},"branchMap":{},"s":{"0":8,"1":8},"f":{"0":8},"b":{},"_coverageSchema":"1a1c01bbd47fc00a2c39e90264f33305004495a9","hash":"dcf2f78a92ae531f4f826f623cb359e8a48390a5"}
-,"/Users/ulyana/Desktop/projects/otus/router-ula-otus/src/router.ts": {"path":"/Users/ulyana/Desktop/projects/otus/router-ula-otus/src/router.ts","statementMap":{"0":{"start":{"line":4,"column":2},"end":{"line":11,"column":3}},"1":{"start":{"line":6,"column":6},"end":{"line":6,"column":30}},"2":{"start":{"line":8,"column":6},"end":{"line":8,"column":27}},"3":{"start":{"line":10,"column":6},"end":{"line":10,"column":32}},"4":{"start":{"line":24,"column":28},"end":{"line":24,"column":69}},"5":{"start":{"line":25,"column":2},"end":{"line":25,"column":72}},"6":{"start":{"line":26,"column":2},"end":{"line":26,"column":60}},"7":{"start":{"line":27,"column":2},"end":{"line":27,"column":43}},"8":{"start":{"line":28,"column":2},"end":{"line":28,"column":48}},"9":{"start":{"line":29,"column":2},"end":{"line":29,"column":38}},"10":{"start":{"line":33,"column":17},"end":{"line":33,"column":36}},"11":{"start":{"line":34,"column":13},"end":{"line":34,"column":51}},"12":{"start":{"line":36,"column":2},"end":{"line":36,"column":56}},"13":{"start":{"line":39,"column":18},"end":{"line":39,"column":68}},"14":{"start":{"line":39,"column":37},"end":{"line":39,"column":67}},"15":{"start":{"line":40,"column":4},"end":{"line":42,"column":5}},"16":{"start":{"line":41,"column":6},"end":{"line":41,"column":72}},"17":{"start":{"line":41,"column":58},"end":{"line":41,"column":69}},"18":{"start":{"line":46,"column":17},"end":{"line":46,"column":40}},"19":{"start":{"line":47,"column":4},"end":{"line":47,"column":43}},"20":{"start":{"line":47,"column":36},"end":{"line":47,"column":43}},"21":{"start":{"line":48,"column":17},"end":{"line":48,"column":42}},"22":{"start":{"line":49,"column":4},"end":{"line":49,"column":22}},"23":{"start":{"line":49,"column":15},"end":{"line":49,"column":22}},"24":{"start":{"line":50,"column":4},"end":{"line":50,"column":23}},"25":{"start":{"line":51,"column":4},"end":{"line":51,"column":18}},"26":{"start":{"line":54,"column":2},"end":{"line":73,"column":4}},"27":{"start":{"line":56,"column":6},"end":{"line":56,"column":20}},"28":{"start":{"line":59,"column":6},"end":{"line":59,"column":37}},"29":{"start":{"line":62,"column":6},"end":{"line":62,"column":24}},"30":{"start":{"line":65,"column":18},"end":{"line":65,"column":79}},"31":{"start":{"line":65,"column":42},"end":{"line":65,"column":78}},"32":{"start":{"line":66,"column":6},"end":{"line":68,"column":7}},"33":{"start":{"line":67,"column":8},"end":{"line":67,"column":27}},"34":{"start":{"line":71,"column":6},"end":{"line":71,"column":20}}},"fnMap":{"0":{"name":"routeTest","decl":{"start":{"line":3,"column":16},"end":{"line":3,"column":25}},"loc":{"start":{"line":3,"column":60},"end":{"line":12,"column":1}},"line":3},"1":{"name":"routePath","decl":{"start":{"line":19,"column":22},"end":{"line":19,"column":31}},"loc":{"start":{"line":23,"column":22},"end":{"line":30,"column":1}},"line":23},"2":{"name":"Router","decl":{"start":{"line":32,"column":16},"end":{"line":32,"column":22}},"loc":{"start":{"line":32,"column":39},"end":{"line":74,"column":1}},"line":32},"3":{"name":"testUrl","decl":{"start":{"line":38,"column":11},"end":{"line":38,"column":18}},"loc":{"start":{"line":38,"column":40},"end":{"line":43,"column":3}},"line":38},"4":{"name":"(anonymous_4)","decl":{"start":{"line":39,"column":30},"end":{"line":39,"column":31}},"loc":{"start":{"line":39,"column":37},"end":{"line":39,"column":67}},"line":39},"5":{"name":"(anonymous_5)","decl":{"start":{"line":41,"column":47},"end":{"line":41,"column":48}},"loc":{"start":{"line":41,"column":58},"end":{"line":41,"column":69}},"line":41},"6":{"name":"handlerClick","decl":{"start":{"line":45,"column":11},"end":{"line":45,"column":23}},"loc":{"start":{"line":45,"column":34},"end":{"line":52,"column":3}},"line":45},"7":{"name":"(anonymous_7)","decl":{"start":{"line":55,"column":4},"end":{"line":55,"column":5}},"loc":{"start":{"line":55,"column":16},"end":{"line":57,"column":5}},"line":55},"8":{"name":"(anonymous_8)","decl":{"start":{"line":58,"column":4},"end":{"line":58,"column":5}},"loc":{"start":{"line":58,"column":67},"end":{"line":60,"column":5}},"line":58},"9":{"name":"(anonymous_9)","decl":{"start":{"line":61,"column":4},"end":{"line":61,"column":5}},"loc":{"start":{"line":61,"column":27},"end":{"line":63,"column":5}},"line":61},"10":{"name":"(anonymous_10)","decl":{"start":{"line":64,"column":4},"end":{"line":64,"column":5}},"loc":{"start":{"line":64,"column":30},"end":{"line":69,"column":5}},"line":64},"11":{"name":"(anonymous_11)","decl":{"start":{"line":65,"column":35},"end":{"line":65,"column":36}},"loc":{"start":{"line":65,"column":42},"end":{"line":65,"column":78}},"line":65},"12":{"name":"(anonymous_12)","decl":{"start":{"line":70,"column":4},"end":{"line":70,"column":5}},"loc":{"start":{"line":70,"column":21},"end":{"line":72,"column":5}},"line":70}},"branchMap":{"0":{"loc":{"start":{"line":4,"column":2},"end":{"line":11,"column":3}},"type":"switch","locations":[{"start":{"line":5,"column":4},"end":{"line":6,"column":30}},{"start":{"line":7,"column":4},"end":{"line":8,"column":27}},{"start":{"line":9,"column":4},"end":{"line":10,"column":32}}],"line":4},"1":{"loc":{"start":{"line":25,"column":2},"end":{"line":25,"column":71}},"type":"binary-expr","locations":[{"start":{"line":25,"column":2},"end":{"line":25,"column":12}},{"start":{"line":25,"column":16},"end":{"line":25,"column":34}},{"start":{"line":25,"column":39},"end":{"line":25,"column":70}}],"line":25},"2":{"loc":{"start":{"line":26,"column":2},"end":{"line":26,"column":59}},"type":"binary-expr","locations":[{"start":{"line":26,"column":2},"end":{"line":26,"column":21}},{"start":{"line":26,"column":26},"end":{"line":26,"column":58}}],"line":26},"3":{"loc":{"start":{"line":28,"column":2},"end":{"line":28,"column":47}},"type":"binary-expr","locations":[{"start":{"line":28,"column":2},"end":{"line":28,"column":15}},{"start":{"line":28,"column":20},"end":{"line":28,"column":46}}],"line":28},"4":{"loc":{"start":{"line":40,"column":4},"end":{"line":42,"column":5}},"type":"if","locations":[{"start":{"line":40,"column":4},"end":{"line":42,"column":5}},{"start":{},"end":{}}],"line":40},"5":{"loc":{"start":{"line":47,"column":4},"end":{"line":47,"column":43}},"type":"if","locations":[{"start":{"line":47,"column":4},"end":{"line":47,"column":43}},{"start":{},"end":{}}],"line":47},"6":{"loc":{"start":{"line":49,"column":4},"end":{"line":49,"column":22}},"type":"if","locations":[{"start":{"line":49,"column":4},"end":{"line":49,"column":22}},{"start":{},"end":{}}],"line":49},"7":{"loc":{"start":{"line":66,"column":6},"end":{"line":68,"column":7}},"type":"if","locations":[{"start":{"line":66,"column":6},"end":{"line":68,"column":7}},{"start":{},"end":{}}],"line":66}},"s":{"0":17,"1":12,"2":2,"3":3,"4":5,"5":5,"6":5,"7":5,"8":5,"9":5,"10":4,"11":4,"12":4,"13":9,"14":12,"15":9,"16":4,"17":4,"18":9,"19":9,"20":1,"21":8,"22":8,"23":1,"24":7,"25":7,"26":4,"27":5,"28":6,"29":2,"30":2,"31":3,"32":2,"33":1,"34":2},"f":{"0":17,"1":5,"2":4,"3":9,"4":12,"5":4,"6":9,"7":5,"8":6,"9":2,"10":2,"11":3,"12":2},"b":{"0":[12,2,3],"1":[5,1,1],"2":[5,1],"3":[5,3],"4":[4,5],"5":[1,8],"6":[1,7],"7":[1,1]},"_coverageSchema":"1a1c01bbd47fc00a2c39e90264f33305004495a9","hash":"8617209b2997d40d6f9e38412002f15e9f263ecd"}
+{
+    "/Users/ulyana/Desktop/projects/otus/router-ula-otus/src/app.ts": {
+        "path": "/Users/ulyana/Desktop/projects/otus/router-ula-otus/src/app.ts",
+        "statementMap": {
+            "0": {
+                "start": { "line": 5, "column": 19 },
+                "end": { "line": 5, "column": 27 }
+            },
+            "1": {
+                "start": { "line": 6, "column": 4 },
+                "end": { "line": 6, "column": 28 }
+            },
+            "2": {
+                "start": { "line": 7, "column": 4 },
+                "end": { "line": 7, "column": 34 }
+            },
+            "3": {
+                "start": { "line": 8, "column": 4 },
+                "end": { "line": 8, "column": 33 }
+            },
+            "4": {
+                "start": { "line": 9, "column": 4 },
+                "end": { "line": 9, "column": 73 }
+            },
+            "5": {
+                "start": { "line": 9, "column": 32 },
+                "end": { "line": 9, "column": 59 }
+            },
+            "6": {
+                "start": { "line": 10, "column": 4 },
+                "end": { "line": 10, "column": 32 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "app",
+                "decl": {
+                    "start": { "line": 4, "column": 16 },
+                    "end": { "line": 4, "column": 19 }
+                },
+                "loc": {
+                    "start": { "line": 4, "column": 22 },
+                    "end": { "line": 11, "column": 1 }
+                },
+                "line": 4
+            },
+            "1": {
+                "name": "(anonymous_1)",
+                "decl": {
+                    "start": { "line": 9, "column": 14 },
+                    "end": { "line": 9, "column": 15 }
+                },
+                "loc": {
+                    "start": { "line": 9, "column": 32 },
+                    "end": { "line": 9, "column": 59 }
+                },
+                "line": 9
+            }
+        },
+        "branchMap": {},
+        "s": { "0": 1, "1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1 },
+        "f": { "0": 1, "1": 1 },
+        "b": {},
+        "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+        "hash": "13b8efa8afac50f40ec2635a425e28875c904150"
+    },
+    "/Users/ulyana/Desktop/projects/otus/router-ula-otus/src/pages.ts": {
+        "path": "/Users/ulyana/Desktop/projects/otus/router-ula-otus/src/pages.ts",
+        "statementMap": {
+            "0": {
+                "start": { "line": 5, "column": 4 },
+                "end": { "line": 5, "column": 41 }
+            },
+            "1": {
+                "start": { "line": 9, "column": 4 },
+                "end": { "line": 9, "column": 41 }
+            },
+            "2": {
+                "start": { "line": 13, "column": 4 },
+                "end": { "line": 13, "column": 47 }
+            },
+            "3": {
+                "start": { "line": 17, "column": 4 },
+                "end": { "line": 17, "column": 70 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "pageMain",
+                "decl": {
+                    "start": { "line": 4, "column": 22 },
+                    "end": { "line": 4, "column": 30 }
+                },
+                "loc": {
+                    "start": { "line": 4, "column": 33 },
+                    "end": { "line": 6, "column": 1 }
+                },
+                "line": 4
+            },
+            "1": {
+                "name": "pageAbout",
+                "decl": {
+                    "start": { "line": 8, "column": 22 },
+                    "end": { "line": 8, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 8, "column": 34 },
+                    "end": { "line": 10, "column": 1 }
+                },
+                "line": 8
+            },
+            "2": {
+                "name": "pageInfo",
+                "decl": {
+                    "start": { "line": 12, "column": 22 },
+                    "end": { "line": 12, "column": 30 }
+                },
+                "loc": {
+                    "start": { "line": 12, "column": 33 },
+                    "end": { "line": 14, "column": 1 }
+                },
+                "line": 12
+            },
+            "3": {
+                "name": "pageContact",
+                "decl": {
+                    "start": { "line": 16, "column": 22 },
+                    "end": { "line": 16, "column": 33 }
+                },
+                "loc": {
+                    "start": { "line": 16, "column": 49 },
+                    "end": { "line": 18, "column": 1 }
+                },
+                "line": 16
+            }
+        },
+        "branchMap": {},
+        "s": { "0": 2, "1": 1, "2": 1, "3": 2 },
+        "f": { "0": 2, "1": 1, "2": 1, "3": 2 },
+        "b": {},
+        "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+        "hash": "d83bda6ad57c2f9b58f907f6bf7cced7e4f7255e"
+    },
+    "/Users/ulyana/Desktop/projects/otus/router-ula-otus/src/render.ts": {
+        "path": "/Users/ulyana/Desktop/projects/otus/router-ula-otus/src/render.ts",
+        "statementMap": {
+            "0": {
+                "start": { "line": 2, "column": 4 },
+                "end": { "line": 2, "column": 26 }
+            },
+            "1": {
+                "start": { "line": 3, "column": 4 },
+                "end": { "line": 3, "column": 55 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "render",
+                "decl": {
+                    "start": { "line": 1, "column": 16 },
+                    "end": { "line": 1, "column": 22 }
+                },
+                "loc": {
+                    "start": { "line": 1, "column": 55 },
+                    "end": { "line": 4, "column": 1 }
+                },
+                "line": 1
+            }
+        },
+        "branchMap": {},
+        "s": { "0": 8, "1": 8 },
+        "f": { "0": 8 },
+        "b": {},
+        "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+        "hash": "6fbe3a4a07530ed94d91318f884ec83244a5bf5d"
+    },
+    "/Users/ulyana/Desktop/projects/otus/router-ula-otus/src/router.ts": {
+        "path": "/Users/ulyana/Desktop/projects/otus/router-ula-otus/src/router.ts",
+        "statementMap": {
+            "0": {
+                "start": { "line": 4, "column": 4 },
+                "end": { "line": 11, "column": 5 }
+            },
+            "1": {
+                "start": { "line": 6, "column": 12 },
+                "end": { "line": 6, "column": 35 }
+            },
+            "2": {
+                "start": { "line": 8, "column": 12 },
+                "end": { "line": 8, "column": 32 }
+            },
+            "3": {
+                "start": { "line": 10, "column": 12 },
+                "end": { "line": 10, "column": 37 }
+            },
+            "4": {
+                "start": { "line": 24, "column": 30 },
+                "end": { "line": 24, "column": 71 }
+            },
+            "5": {
+                "start": { "line": 25, "column": 4 },
+                "end": { "line": 25, "column": 73 }
+            },
+            "6": {
+                "start": { "line": 26, "column": 4 },
+                "end": { "line": 26, "column": 61 }
+            },
+            "7": {
+                "start": { "line": 27, "column": 4 },
+                "end": { "line": 27, "column": 44 }
+            },
+            "8": {
+                "start": { "line": 28, "column": 4 },
+                "end": { "line": 28, "column": 49 }
+            },
+            "9": {
+                "start": { "line": 29, "column": 4 },
+                "end": { "line": 29, "column": 39 }
+            },
+            "10": {
+                "start": { "line": 33, "column": 19 },
+                "end": { "line": 33, "column": 38 }
+            },
+            "11": {
+                "start": { "line": 34, "column": 15 },
+                "end": { "line": 34, "column": 53 }
+            },
+            "12": {
+                "start": { "line": 36, "column": 4 },
+                "end": { "line": 36, "column": 57 }
+            },
+            "13": {
+                "start": { "line": 39, "column": 22 },
+                "end": { "line": 39, "column": 72 }
+            },
+            "14": {
+                "start": { "line": 39, "column": 41 },
+                "end": { "line": 39, "column": 71 }
+            },
+            "15": {
+                "start": { "line": 40, "column": 8 },
+                "end": { "line": 42, "column": 9 }
+            },
+            "16": {
+                "start": { "line": 41, "column": 12 },
+                "end": { "line": 41, "column": 77 }
+            },
+            "17": {
+                "start": { "line": 41, "column": 64 },
+                "end": { "line": 41, "column": 75 }
+            },
+            "18": {
+                "start": { "line": 46, "column": 21 },
+                "end": { "line": 46, "column": 44 }
+            },
+            "19": {
+                "start": { "line": 47, "column": 8 },
+                "end": { "line": 47, "column": 46 }
+            },
+            "20": {
+                "start": { "line": 47, "column": 40 },
+                "end": { "line": 47, "column": 46 }
+            },
+            "21": {
+                "start": { "line": 48, "column": 21 },
+                "end": { "line": 48, "column": 46 }
+            },
+            "22": {
+                "start": { "line": 49, "column": 8 },
+                "end": { "line": 49, "column": 25 }
+            },
+            "23": {
+                "start": { "line": 49, "column": 19 },
+                "end": { "line": 49, "column": 25 }
+            },
+            "24": {
+                "start": { "line": 50, "column": 8 },
+                "end": { "line": 50, "column": 26 }
+            },
+            "25": {
+                "start": { "line": 51, "column": 8 },
+                "end": { "line": 51, "column": 21 }
+            },
+            "26": {
+                "start": { "line": 54, "column": 4 },
+                "end": { "line": 75, "column": 5 }
+            },
+            "27": {
+                "start": { "line": 56, "column": 12 },
+                "end": { "line": 56, "column": 25 }
+            },
+            "28": {
+                "start": { "line": 59, "column": 12 },
+                "end": { "line": 59, "column": 42 }
+            },
+            "29": {
+                "start": { "line": 62, "column": 12 },
+                "end": { "line": 62, "column": 29 }
+            },
+            "30": {
+                "start": { "line": 65, "column": 24 },
+                "end": { "line": 67, "column": 13 }
+            },
+            "31": {
+                "start": { "line": 66, "column": 23 },
+                "end": { "line": 66, "column": 59 }
+            },
+            "32": {
+                "start": { "line": 68, "column": 12 },
+                "end": { "line": 70, "column": 13 }
+            },
+            "33": {
+                "start": { "line": 69, "column": 16 },
+                "end": { "line": 69, "column": 34 }
+            },
+            "34": {
+                "start": { "line": 73, "column": 12 },
+                "end": { "line": 73, "column": 25 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "routeTest",
+                "decl": {
+                    "start": { "line": 3, "column": 16 },
+                    "end": { "line": 3, "column": 25 }
+                },
+                "loc": {
+                    "start": { "line": 3, "column": 60 },
+                    "end": { "line": 12, "column": 1 }
+                },
+                "line": 3
+            },
+            "1": {
+                "name": "routePath",
+                "decl": {
+                    "start": { "line": 19, "column": 22 },
+                    "end": { "line": 19, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 23, "column": 22 },
+                    "end": { "line": 30, "column": 1 }
+                },
+                "line": 23
+            },
+            "2": {
+                "name": "Router",
+                "decl": {
+                    "start": { "line": 32, "column": 16 },
+                    "end": { "line": 32, "column": 22 }
+                },
+                "loc": {
+                    "start": { "line": 32, "column": 39 },
+                    "end": { "line": 76, "column": 1 }
+                },
+                "line": 32
+            },
+            "3": {
+                "name": "testUrl",
+                "decl": {
+                    "start": { "line": 38, "column": 13 },
+                    "end": { "line": 38, "column": 20 }
+                },
+                "loc": {
+                    "start": { "line": 38, "column": 42 },
+                    "end": { "line": 43, "column": 5 }
+                },
+                "line": 38
+            },
+            "4": {
+                "name": "(anonymous_4)",
+                "decl": {
+                    "start": { "line": 39, "column": 34 },
+                    "end": { "line": 39, "column": 35 }
+                },
+                "loc": {
+                    "start": { "line": 39, "column": 41 },
+                    "end": { "line": 39, "column": 71 }
+                },
+                "line": 39
+            },
+            "5": {
+                "name": "(anonymous_5)",
+                "decl": {
+                    "start": { "line": 41, "column": 53 },
+                    "end": { "line": 41, "column": 54 }
+                },
+                "loc": {
+                    "start": { "line": 41, "column": 64 },
+                    "end": { "line": 41, "column": 75 }
+                },
+                "line": 41
+            },
+            "6": {
+                "name": "handlerClick",
+                "decl": {
+                    "start": { "line": 45, "column": 13 },
+                    "end": { "line": 45, "column": 25 }
+                },
+                "loc": {
+                    "start": { "line": 45, "column": 36 },
+                    "end": { "line": 52, "column": 5 }
+                },
+                "line": 45
+            },
+            "7": {
+                "name": "(anonymous_7)",
+                "decl": {
+                    "start": { "line": 55, "column": 8 },
+                    "end": { "line": 55, "column": 9 }
+                },
+                "loc": {
+                    "start": { "line": 55, "column": 20 },
+                    "end": { "line": 57, "column": 9 }
+                },
+                "line": 55
+            },
+            "8": {
+                "name": "(anonymous_8)",
+                "decl": {
+                    "start": { "line": 58, "column": 8 },
+                    "end": { "line": 58, "column": 9 }
+                },
+                "loc": {
+                    "start": { "line": 58, "column": 71 },
+                    "end": { "line": 60, "column": 9 }
+                },
+                "line": 58
+            },
+            "9": {
+                "name": "(anonymous_9)",
+                "decl": {
+                    "start": { "line": 61, "column": 8 },
+                    "end": { "line": 61, "column": 9 }
+                },
+                "loc": {
+                    "start": { "line": 61, "column": 31 },
+                    "end": { "line": 63, "column": 9 }
+                },
+                "line": 61
+            },
+            "10": {
+                "name": "(anonymous_10)",
+                "decl": {
+                    "start": { "line": 64, "column": 8 },
+                    "end": { "line": 64, "column": 9 }
+                },
+                "loc": {
+                    "start": { "line": 64, "column": 34 },
+                    "end": { "line": 71, "column": 9 }
+                },
+                "line": 64
+            },
+            "11": {
+                "name": "(anonymous_11)",
+                "decl": {
+                    "start": { "line": 66, "column": 16 },
+                    "end": { "line": 66, "column": 17 }
+                },
+                "loc": {
+                    "start": { "line": 66, "column": 23 },
+                    "end": { "line": 66, "column": 59 }
+                },
+                "line": 66
+            },
+            "12": {
+                "name": "(anonymous_12)",
+                "decl": {
+                    "start": { "line": 72, "column": 8 },
+                    "end": { "line": 72, "column": 9 }
+                },
+                "loc": {
+                    "start": { "line": 72, "column": 25 },
+                    "end": { "line": 74, "column": 9 }
+                },
+                "line": 72
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 4, "column": 4 },
+                    "end": { "line": 11, "column": 5 }
+                },
+                "type": "switch",
+                "locations": [
+                    {
+                        "start": { "line": 5, "column": 8 },
+                        "end": { "line": 6, "column": 35 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 8 },
+                        "end": { "line": 8, "column": 32 }
+                    },
+                    {
+                        "start": { "line": 9, "column": 8 },
+                        "end": { "line": 10, "column": 37 }
+                    }
+                ],
+                "line": 4
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 25, "column": 4 },
+                    "end": { "line": 25, "column": 73 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 25, "column": 4 },
+                        "end": { "line": 25, "column": 14 }
+                    },
+                    {
+                        "start": { "line": 25, "column": 18 },
+                        "end": { "line": 25, "column": 36 }
+                    },
+                    {
+                        "start": { "line": 25, "column": 41 },
+                        "end": { "line": 25, "column": 72 }
+                    }
+                ],
+                "line": 25
+            },
+            "2": {
+                "loc": {
+                    "start": { "line": 26, "column": 4 },
+                    "end": { "line": 26, "column": 61 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 26, "column": 4 },
+                        "end": { "line": 26, "column": 23 }
+                    },
+                    {
+                        "start": { "line": 26, "column": 28 },
+                        "end": { "line": 26, "column": 60 }
+                    }
+                ],
+                "line": 26
+            },
+            "3": {
+                "loc": {
+                    "start": { "line": 28, "column": 4 },
+                    "end": { "line": 28, "column": 49 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 28, "column": 4 },
+                        "end": { "line": 28, "column": 17 }
+                    },
+                    {
+                        "start": { "line": 28, "column": 22 },
+                        "end": { "line": 28, "column": 48 }
+                    }
+                ],
+                "line": 28
+            },
+            "4": {
+                "loc": {
+                    "start": { "line": 40, "column": 8 },
+                    "end": { "line": 42, "column": 9 }
+                },
+                "type": "if",
+                "locations": [
+                    {
+                        "start": { "line": 40, "column": 8 },
+                        "end": { "line": 42, "column": 9 }
+                    },
+                    { "start": {}, "end": {} }
+                ],
+                "line": 40
+            },
+            "5": {
+                "loc": {
+                    "start": { "line": 47, "column": 8 },
+                    "end": { "line": 47, "column": 46 }
+                },
+                "type": "if",
+                "locations": [
+                    {
+                        "start": { "line": 47, "column": 8 },
+                        "end": { "line": 47, "column": 46 }
+                    },
+                    { "start": {}, "end": {} }
+                ],
+                "line": 47
+            },
+            "6": {
+                "loc": {
+                    "start": { "line": 49, "column": 8 },
+                    "end": { "line": 49, "column": 25 }
+                },
+                "type": "if",
+                "locations": [
+                    {
+                        "start": { "line": 49, "column": 8 },
+                        "end": { "line": 49, "column": 25 }
+                    },
+                    { "start": {}, "end": {} }
+                ],
+                "line": 49
+            },
+            "7": {
+                "loc": {
+                    "start": { "line": 68, "column": 12 },
+                    "end": { "line": 70, "column": 13 }
+                },
+                "type": "if",
+                "locations": [
+                    {
+                        "start": { "line": 68, "column": 12 },
+                        "end": { "line": 70, "column": 13 }
+                    },
+                    { "start": {}, "end": {} }
+                ],
+                "line": 68
+            }
+        },
+        "s": {
+            "0": 17,
+            "1": 12,
+            "2": 2,
+            "3": 3,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 3,
+            "11": 3,
+            "12": 3,
+            "13": 8,
+            "14": 12,
+            "15": 8,
+            "16": 4,
+            "17": 4,
+            "18": 8,
+            "19": 8,
+            "20": 1,
+            "21": 7,
+            "22": 7,
+            "23": 1,
+            "24": 6,
+            "25": 6,
+            "26": 3,
+            "27": 5,
+            "28": 6,
+            "29": 2,
+            "30": 2,
+            "31": 3,
+            "32": 2,
+            "33": 1,
+            "34": 2
+        },
+        "f": {
+            "0": 17,
+            "1": 5,
+            "2": 3,
+            "3": 8,
+            "4": 12,
+            "5": 4,
+            "6": 8,
+            "7": 5,
+            "8": 6,
+            "9": 2,
+            "10": 2,
+            "11": 3,
+            "12": 2
+        },
+        "b": {
+            "0": [12, 2, 3],
+            "1": [5, 1, 1],
+            "2": [5, 1],
+            "3": [5, 3],
+            "4": [4, 4],
+            "5": [1, 7],
+            "6": [1, 6],
+            "7": [1, 1]
+        },
+        "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+        "hash": "e8d3768e7ae0fa67a7333b0b6eea7b0f0286bf51"
+    }
 }
